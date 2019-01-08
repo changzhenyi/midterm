@@ -1,0 +1,204 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+section {
+  padding: 100px 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 154px 0 100px;
+  
+ /* Add the following to  include a centered image. */
+  background-image: url("https://cdn-www.bluestacks.com/bs-images/dragon-village-m-masters-road_banner.jpg");
+ 
+ 
+  /* Center and scale the image. */
+  background-position: center;  /* This value can also be left, right */
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ 
+ @media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+ }
+
+h1 {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  color: whitesmoke;
+  
+}
+
+h2 {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-weight: bold;
+  font-size: 45px;
+  color: whitesmoke
+}
+
+h3 {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: whitesmoke;
+  padding-top: 20px
+}
+
+.intro {
+  font-family: 'Farsan', cursive;
+  font-size: 25px;
+}
+
+span {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  color: rgb(160, 124, 228);
+  font-size: 25px;
+}
+
+.description {
+  color: whitesmoke;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 30px;
+}
+
+.wikiSection {
+  background-color: rgb(85, 139, 184);
+  background: linear-gradient(rgb(85, 139, 184),rgb(250, 154, 10))
+}
+
+.guiSection {
+  background-color: rgb(250, 154, 10);
+  background: linear-gradient(rgb(250, 154, 10),rgb(61, 207, 134))
+}
+
+.commSection {
+  background-color: rgb(61, 207, 134);
+  background: linear-gradient(rgb(61, 207, 134),rgb(240, 87, 87))
+}
+
+.downSection {
+  background-color: rgb(240, 87, 87);
+  background: linear-gradient(rgb(240, 87, 87),rgb(53, 57, 66))
+}
+
+.ssSection {
+  background-color: rgb(54, 57, 66)
+}
+
+#sect {
+  border-style: solid;
+  border-radius: 5px;
+  padding: 40px;
+  color: whitesmoke
+}
+
+#hed {
+  background-color: grey;
+}
+
+#commbut {
+  padding-top: 100px;
+}
+
+#wikibut {
+  padding-top: 80px;
+}
+
+#viewbut {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: whitesmoke
+}
+
+#viewbut:hover {
+  opacity: 0.8
+}
+
+#wikipic {
+  border-radius: 10px;
+  background-color: whitesmoke;
+  border-style: solid;
+}
+
+#cdpic {
+  border-radius: 50%;
+  background-color: whitesmoke
+}
+
+#cdpic:hover {
+  background-color: rgb(166, 235, 166);
+  opacity: 0.8
+}
+
+#dlbut {
+  border-radius: 5px;
+}
+
+#dlbut:hover {
+  opacity: 0.7;
+  background-color: whitesmoke;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+
+}
+
+@media (max-width: 500px) {
+  #cupid {
+  height: 50%;
+  }
+
+  #wikicha1 {
+    height:150px;  
+  }
+
+  #wikicha2
+   {
+    height:140px;  
+  }
+
+  #wikipic {
+    height: 50px; 
+  }
+  
+  #tamers {
+    height: 100px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 13px
+  }
+
+  .description,
+  .intro {
+    font-size: 20px
+  }
+
+  #viewbut {
+    height: 45px;
+  }
+
+  #cdpic {
+    height: 50px
+  }
+
+  #dlbut {
+    height: 30px
+  }
+
+}
